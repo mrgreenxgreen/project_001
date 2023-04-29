@@ -1,0 +1,27 @@
+.newuser {
+    text-align: center;
+
+}
+
+.newuserinnerbox input{
+    
+    display:flex;
+    flex-direction: column;
+    margin:5px;
+    padding:5px;
+    width:300px;
+    border-radius: 15px;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+.newuserinnerbox select,option{
+    width:150px;
+    padding:10px;
+    border-radius: 15px;
+}
+
+#newuser_button{
+    width:100px;
+    margin:auto;
+}

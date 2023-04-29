@@ -1,0 +1,110 @@
+*{
+  font-family:'courier';
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:'Goldman';
+}
+body{
+  /* background-color: rgb(1, 14, 39);   */
+  /* background-image: linear-gradient(180deg, rgb(32, 31, 31), rgb(206, 206, 202)); */
+
+
+}
+/* @keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+} */
+
+body{
+  background-repeat: no-repeat;
+  /* background-image: url('../img/carabao\ robot\ X.jpg'); */
+  background-image: url('../img/vecteezy_futuristic-sci-fi-glowing-hud-element-abstract-hi-tech_5550026.jpg');
+
+  background-size:cover;
+  background-position: 40%;
+  background-attachment: fixed;
+  /* animation: spin 5s linear infinite; */
+
+}
+/* body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vmax;
+  height: 100vmax;
+  background-image: inherit;
+  animation: spin 5s linear infinite;
+  z-index: -1;
+} */
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+.bodycontent{
+    width:50vw;
+    /* background-color: rgb(1, 62, 97); */
+    /* background-image: linear-gradient(90deg, rgb(4, 80, 131), rgb(0, 162, 255),rgb(206, 28, 223),rgb(83, 6, 64)  );  */
+    background-image: linear-gradient(90deg, rgba(6, 141, 168, 0.719), rgba(6, 79, 94, 0.856),rgb(4, 51, 70)  ); 
+    /* background-image: url('../img/buffalo\ robot.jpg'); */
+    margin:auto;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(106, 250, 255);
+}
+
+.glow {
+
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+
+/*screen size changes*/
+@media only screen and (max-width:600px) {
+    .bodycontent {
+      width: 100vw;
+     
+  }
+  .bodycontent-starter{
+    margin-top:25vw;
+  }
+  .bodycontent img{
+    width:95vw;
+  }
+  .post-avatar-div img{
+    width:12vw;
+  }
+
+}

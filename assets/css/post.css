@@ -1,0 +1,76 @@
+#post-title{
+    width:680px;
+}
+/* class="post" style="border:1px solid rgb(106, 250, 255);border-radius:15px;padding:10px;" */
+
+.post{
+ border:1px solid rgb(106, 250, 255);border-radius:15px;padding:10px;
+ margin-top:10px;
+  width:600px;
+  display:flex;
+  flex-direction: column;
+}
+.post h2{
+    margin-top:20px;
+  }
+  .newsfeed, .newsfeed form{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding:10px;
+    margin:10px;
+  }
+  
+  .newsfeed input{
+    margin:10px;
+    padding:5px;
+    border-radius: 15px;
+    font-size:20px;
+    width:100px;
+  
+  }
+  
+  .newsfeed button{
+    margin:10px;
+    border-radius: 15px;
+    font-size: large;
+    width: 100px;
+    height: 40px;
+  }
+  .post-header{
+    display:flex;flex-direction:row;justify-content:space-between;align-items:center;
+  }
+  .post-head{
+    display:flex;align-items:center;
+  }
+  .post-avatar-div{
+    height:50px;width:50px;background-color:green;border-radius:50%;overflow:hidden; 
+  }
+
+
+@media screen and (max-width: 1200px) {
+    #post-title {
+        width: 90vw;
+    }
+
+    #post-paragraph{
+        width:90vw;
+    }
+
+    
+.post{
+    border:1px solid rgb(106, 250, 255);
+    border-radius:15px;
+    padding:10px;
+    width:95vw;
+    padding:0px;
+    margin:0px; 
+    word-wrap: break-word;
+
+   
+   }
+  }
+
+
+  
+  

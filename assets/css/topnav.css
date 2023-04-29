@@ -1,0 +1,78 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.maintopnav{
+    position: fixed;
+    z-index: 1000;
+}
+
+.topnav{
+    
+        display:flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width:100%;
+        padding:5px;
+        background-color:rgb(28, 235, 183);
+        color:white;
+}
+
+.topnav a{
+    
+    text-decoration: none;
+    color:rgba(27, 26, 26, 0.719);
+    padding:10px;
+}
+
+.topnav a:hover{
+    color:yellow;
+}
+
+.heading{
+    position: relative;
+    width:100vw;
+    padding:10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display:flex;
+    background-color: rgb(255, 255, 255);
+    background-image:url('../img/coverphoto3.jpg') ;
+    background-size:cover;
+   
+    
+}
+
+#login-div{
+    width:300px;
+    height:300px;
+    text-align: center;
+    background-color: rgb(83, 236, 121);
+    margin:auto;
+    border-radius: 25px;
+    color:green;
+    border:1px solid gray;
+    margin-top:10vh;
+   
+    
+}
+
+#login-form{
+   
+    padding:10px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+   
+    text-align: center;
+}
+
+#login-form input{
+    padding:10px;
+    border-radius: 10px;
+    font-size: 15px;
+}

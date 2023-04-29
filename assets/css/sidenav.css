@@ -1,0 +1,29 @@
+.sidenav{
+    width:0;
+    height:100vmax;
+    background-color: rgba(230, 22, 150, 0.788);
+    right:0px;
+    top:0;
+    z-index: 2000;
+    position:fixed;
+    transition: 0.5s;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.sidenav a{
+    color:white;
+    transition: 0.3s;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+
+}
+
+.sidenav a:hover{
+    background-color: rgba(5, 129, 160, 0.555);
+    
+}
+
+
+

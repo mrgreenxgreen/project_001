@@ -1,0 +1,38 @@
+
+
+.addsubject{
+
+    display:flex;
+    flex-direction:column;
+
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+   
+
+}
+input,textarea{
+    margin:10px;
+    padding:10px;
+    width: 325px;
+    border-radius: 10px;
+}
+.addsubjectinnerbox{
+    text-align: center;
+    padding:10px;
+
+}
+
+.addsubjectinnerbox button{
+   padding:10px;
+   border-radius: 15px;
+   width:80px;
+}
+
+table,tr,td,th{
+    padding:5px;
+    border:1px solid violet;
+    border-collapse: collapse;
+}
